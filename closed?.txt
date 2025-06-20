@@ -1,0 +1,5 @@
+If you close terminal
+Open a new terminal
+Do "cd Documents"
+Do "cd my-potfolio"
+Do "npm start"
