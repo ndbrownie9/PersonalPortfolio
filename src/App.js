@@ -36,7 +36,7 @@ function App() {
       <nav className="fixed top-0 w-full bg-gray-900/90 backdrop-blur-sm z-50 border-b border-gray-800">
         <div className="max-w-6xl mx-auto px-6 py-4">
           <div className="flex justify-between items-center">
-            <h1 className="text-2xl font-bold bg-gradient-to-r from-[#2D388A] via-[#00AEEF] to-[#00DDFF] bg-clip-text text-transparent">
+            <h1 className="text-2xl font-bold bg-[#00AEEF] bg-clip-text text-transparent">
               Nikhil Devarakonda
             </h1>
             <div className="hidden md:flex space-x-8">
@@ -71,13 +71,13 @@ function App() {
           <div className="flex justify-center space-x-6">
             <a
               href="#projects"
-              className="px-8 py-3 bg-gradient-to-r from-[#2D388A] to-[#00AEEF] rounded-lg font-semibold hover:shadow-lg hover:shadow-blue-500/25 transition-all transform hover:-translate-y-1"
+              className="px-8 py-3 border border-gray-600 rounded-lg font-semibold hover:border-blue-400 transition-colors"
             >
               View Projects
             </a>
             <a
               href="#contact"
-              className="px-8 py-3 border border-gray-600 rounded-lg font-semibold hover:border-gray-400 transition-colors"
+              className="px-8 py-3 border border-gray-600 rounded-lg font-semibold hover:border-blue-400 transition-colors"
             >
               Contact Me
             </a>
@@ -166,7 +166,7 @@ function App() {
             <a href="https://www.linkedin.com/in/nikhil-devarakonda-8b47441b8" className="text-blue-400 hover:text-blue-300 transition-colors" target="_blank" rel="noopener noreferrer">
               LinkedIn
             </a>
-            <a href="#" className="text-blue-400 hover:text-blue-300 transition-colors">
+            <a href="https://github.com/ndbrownie9" className="text-blue-400 hover:text-blue-300 transition-colors" target="_blank" rel="noopener noreferrer">
               GitHub
             </a>
           </div>
